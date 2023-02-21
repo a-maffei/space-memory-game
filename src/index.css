@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: rgba(56, 56, 56, 0.9);
+    overflow-x: hidden;
+    background-color: #54acff;
+    background-image: linear-gradient(43deg, #54acff 0%, #c67aff 46%, #ff84b3 100%);
+    overflow-y: hidden;
+}
+
+button {
+    outline-color: #006d77;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3em;
+    z-index: 3;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+}
+
+.frosted {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.game-container {
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer p a:hover {
+    cursor: pointer;
+}
+
+.footer p a:active,
+.footer p a:visited {
+    color: white;
+}
