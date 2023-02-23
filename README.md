@@ -21,7 +21,7 @@ Building this game (as a week-long side project during my bootcamp) was an oppor
 **Communication tool**:
 - Fetch
 
-**Deployed with:** Netlify (client)
+**Deployed with:** Netlify
 
 ## Overview
 
