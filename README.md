@@ -1,10 +1,10 @@
 
 # Memory Game in Space
 
-A classic memory game: you get presented with a set of cards of even number and your mission is to find couples of matching images. The pictures all come from space ✨
+A classic memory game: you get presented with a set of cards of even number and your mission is to find couples of matching images. The pictures all come from space (and from the Pexels photo API) ✨
 
 Building this game (as a week-long side project during my bootcamp) was an opportunity to practice first-hand and learn more about:
-- Working with an external API (Pexels), which required to use authorization headers 
+- Working with an external API, which also required to use authorization headers 
 - Passing props, ensuring they are the right ones by using propTypes
 - Implementing React hooks, including creating custom ones  
 - Building flexible and reusable React components 
