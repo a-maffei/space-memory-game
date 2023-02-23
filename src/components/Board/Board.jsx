@@ -31,7 +31,7 @@ const Board = ({ gameOptions, restartGame }) => {
             className={`${styles.buttonboard} frosted`}
             onClick={restartGame}
           >
-            Take me back to game settings
+            Restart game
           </button>
         )}
         {isLoading ? (
